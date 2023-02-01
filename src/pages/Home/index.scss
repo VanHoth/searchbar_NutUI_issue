@@ -1,0 +1,77 @@
+.searchbar{
+  padding: 0;
+}
+
+.col-container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-row{
+  margin-top: 20px;
+}
+
+.home-icon{
+  padding: 8px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.home-icon-text{
+  font-size: 13px;
+}
+
+
+.home-noticeBar{
+ display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+//teachingVideo
+
+.tv-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.tv-title{
+  margin-bottom: 10px;
+  font-size: 18px;
+
+}
+
+.tv-videos-container{
+
+}
+
+.tv-img{
+  width:150px;
+  height:100px;
+  border-radius: 10px;
+}
+
+
+//FineGoods
+.fg-cell{
+  display: flex;
+}
+
+
+.fg-img{
+  width:100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.fg-text-container{
+  display: flex;
+  height:inherit;
+  flex-direction: column;
+  justify-content: space-between;
+}

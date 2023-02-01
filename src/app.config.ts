@@ -1,3 +1,6 @@
+import { useGlobalIconFont } from './iconfont/helper';
+
+
 export default defineAppConfig({
   pages: [
     'pages/Home/index',
@@ -31,5 +34,5 @@ export default defineAppConfig({
       text: "我的"
     }]
   },
-
+  usingComponents: Object.assign(useGlobalIconFont()),
 })
